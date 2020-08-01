@@ -26,9 +26,9 @@ main.mjs 7ms
 prettier.config.js 4ms
 package-lock.json 355ms
 package.json 30ms
-lib/sample.js 11ms
+lib/closedInterval.js 11ms
 lib/sample.mjs 7ms
-lib/sample_test.js 11ms
+lib/closedInterval_test.js 11ms
 lib/sample_test.mjs 7ms
 
 > javascript-jest@0.1.0 lint /Users/dictav/golang/src/github.com/dictav/javascript-jest
@@ -40,7 +40,7 @@ lib/sample_test.mjs 7ms
 > javascript-jest@0.1.0 test:js /Users/dictav/golang/src/github.com/dictav/javascript-jest
 > jest --config jest_js.config.js
 
- PASS  lib/sample_test.js
+ PASS  lib/closedInterval_test.js
   ✓ exported class (2ms)
   ✓ private function (2ms)
 
