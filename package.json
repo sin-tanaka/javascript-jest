@@ -24,7 +24,6 @@
     "fmt": "prettier --write *js *.json lib/*js",
     "fmt:check": "prettier --check *js *.json lib/*js",
     "lint": "eslint main.js main.mjs lib/*js",
-    "pretest": "npm run fmt:check && npm run lint",
     "test": "npm run test:js",
     "test:js": "jest --config jest_js.config.js",
     "watch:js": "npm run test:js -- --watch"
